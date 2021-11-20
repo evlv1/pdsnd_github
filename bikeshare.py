@@ -169,7 +169,7 @@ def user_stats(df, city):
     if city == 'new york city' or city == "chicago":
         print("The distribution of user genders was as follows:")
         print(str(df['Gender'].value_counts(dropna=False))+"\n")
-        print("The erliest year of birth was "+str(int(df['Birth Year'].min())))
+        print("The erliest year of birth was {} ".format(str(int(df['Birth Year'].min()))))
         print("The most recent year of birth was "+str(int(df['Birth Year'].max())))
         print("The emost common year of birth was "+str(int(df['Birth Year'].mode()[0])))
 
