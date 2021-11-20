@@ -156,7 +156,7 @@ def user_stats(df, city):
     print("The distribution of user types was as follows:")
     print(str(df['User Type'].value_counts(dropna=False))+"\n")
 
-    # Additionally, average trip duration and mots common start - end station combination per user type are shown
+    # Additionally, average trip duration and most common start - end station combination per user type are shown
     td_s=df['Trip Duration'].groupby(df['User Type']).mean().round(decimals=0).astype('int64')
 
     print("The mean trip duration of each user type in seconds was:\n{}".format(str(td_s)))
