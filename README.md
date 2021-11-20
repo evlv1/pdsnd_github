@@ -13,3 +13,4 @@ Bikeshare project calculates and displays statistics of bike share systems for C
 bikeshare.py
 
 ### Credits
+Based on a project from Udacity.com
