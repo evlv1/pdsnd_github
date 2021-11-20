@@ -114,7 +114,7 @@ def time_stats(df, month, day):
     else:
         print("On the selected weekday {}".format(day.title()))
 
-    print("The most common start hour was the hour "+str(df['Start Time'].dt.hour.mode()[0]))
+    print("The most common start hour was the hour {} ".format(str(df['Start Time'].dt.hour.mode()[0])))
 
     print("\nThese calculations took %s seconds." % (time.time() - start_time))
     print('-'*40)
