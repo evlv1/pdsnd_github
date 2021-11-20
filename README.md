@@ -7,7 +7,7 @@ Nov. 20, 2021
 Bikeshare
 
 ### Description
-Bikeshare project calculates and displays statistics of bike share systems for Chicago, New York City, and Washington.
+Bikeshare project calculates and displays statistics of bike share systems for Chicago, New York City, and Washington. User can filter the data by city, month and weekday.
 
 ### Files used
 bikeshare.py
